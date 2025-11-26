@@ -86,6 +86,46 @@ GET    /api/products       # List all products
 GET    /api/products/:id   # Get product details
 POST   /api/products       # Add new product (distributors)
 PUT    /api/products/:id   # Update product
+
+** 🚀 Quick Start**
+
+### Prerequisites
+- Node.js (v18 or later)
+- npm or yarn
+- Git
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/piyush-lingwal/Caresakhi.git
+
+# Navigate to project directory
+cd Caresakhi
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env
+# Edit .env with your configuration
+
+# Start development server
+npm run dev
+
+# Open browser to http://localhost:5173
+```
+
+### Build for Production
+
+```bash
+# Create optimized production build
+npm run build
+
+# Preview production build locally
+npm run preview
+```
+
 AI Features:
 GET    /api/ai/recommend/:userId     # Get personalized recommendations
 POST   /api/ai/chat                 # Chat with AI assistant
